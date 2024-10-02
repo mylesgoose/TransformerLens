@@ -11,6 +11,9 @@ from .HookedTransformerConfig import HookedTransformerConfig
 from .FactoredMatrix import FactoredMatrix
 from .ActivationCache import ActivationCache
 from .HookedTransformer import HookedTransformer
+from .Hookedmodeling_mllama import MllamaForConditionalGeneration, MllamaForCausalLM, MllamaTextModel, MllamaVisionModel, MllamaPreTrainedModel
+from .HookedVisionTransformerConfig import MllamaConfig, MllamaTextConfig, MllamaVisionConfig
+from .Hookedimage_processing_mllama import MllamaImageProcessor
 from .SVDInterpreter import SVDInterpreter
 from .HookedEncoder import HookedEncoder
 from .HookedEncoderDecoder import HookedEncoderDecoder
